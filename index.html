@@ -308,7 +308,7 @@ footer p{color:var(--dim);font-size:13px}
     <div class="nav-cta">
       <a class="btn btn-ghost btn-sm" href="tel:+77089177777">+7 708 917 77 77</a>
       <a class="btn btn-gold btn-sm" href="#book">Забронировать</a>
-      <button class="burger" id="burger" aria-label="Меню"><i></i></button>
+      <button type="button" data-sm-open aria-label="Настройки"></button><button class="burger" id="burger" aria-label="Меню"><i></i></button>
     </div>
   </div>
 </header>
@@ -873,5 +873,6 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 renderMenu();renderTable();
 </script>
+<script src="sm.js" defer data-accent="#cfa75e"></script>
 </body>
 </html>
